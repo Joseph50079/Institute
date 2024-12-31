@@ -1,0 +1,24 @@
+.fade-enter {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .fade-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .register{
+    background: linear-gradient(rgba(223,223,212,0.76), rgba(12,32,32,0.77)), url('../public/edubanner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
